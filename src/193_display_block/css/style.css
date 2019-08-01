@@ -1,0 +1,16 @@
+.article_head {
+  padding: 70px 20px 30px 20px;
+  font-size: 40px;
+  color: #515151;
+}
+.subtitle {
+  display: block;
+  padding-top: 5px;
+  border-top: 1px dashed #3b98b5;
+  font-size: 16px;
+  font-weight: normal;
+  color: #3b98b5;
+}
+p {
+  color: #515151;
+}
