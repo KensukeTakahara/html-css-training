@@ -34,6 +34,7 @@ a:active {
 .item .image {
   display: block;
   width: 100%;
+  height: 109px;
 }
 .item .category {
   margin: 15px 9px 10px;
@@ -82,4 +83,16 @@ a:active {
 .item-breaktime,
 .item-breaktime .category::before {
   border-color: #c1efff;
+}
+.item-m {
+  width: 364px;
+}
+.item-m .image {
+  height: 140px;
+}
+.item-l {
+  width: 732px;
+}
+.item-l .image {
+  height: 403px;
 }
