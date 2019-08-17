@@ -1,0 +1,23 @@
+html * {
+  box-sizing: box;
+}
+body {
+  margin: 6;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 0 0 10px 10px;
+  background: #000000;
+}
+.copyright {
+  margin: 6;
+  font-size: 0.8rem;
+  color: #ffffff;
+}
+footer address {
+  font-style: normal;
+  font-size: 0.8rem;
+  color: #ffffff;
+}
