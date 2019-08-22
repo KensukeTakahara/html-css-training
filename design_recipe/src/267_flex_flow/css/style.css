@@ -41,6 +41,9 @@ nav {
   padding: 0 0 40px 0;
   background: #ffffff;
 }
+.pricelist {
+  margin: 10px;
+}
 .pricelist-contents {
   display: flex;
   justify-content: space-between;
@@ -57,6 +60,17 @@ nav {
 }
 .pricelist-contents h2 {
   font-size: 1.3rem;
+  margin: 3px auto;
+}
+.pricelist-contents .info {
+  font-size: 0.9rem;
+  margin: 3px 10px 15px;
+}
+.pricelist-contents .price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 3px auto;
 }
 .pricelist-img {
   width: 100%;
@@ -64,6 +78,12 @@ nav {
 .btn {
   display: block;
   margin: auto 20px 20px 20px;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px;
 }
 .footer-container {
   padding: 0 0 40px 0;
